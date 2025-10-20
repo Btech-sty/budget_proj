@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./asset/fpe.png" alt="" width="30px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#Features">Features</a>
+          <a class="nav-link" href="#About">About</a>
+          <a class="nav-link " href="">Contact</a>
+          <a class="nav-link " href="http://localhost/budget_proj/student/registration.php">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid section1 pt-5">
+   <div class="content">
+    <h1 class="text-light text-capitalize">Take Control of Your Finances, One Goal at a Time.</h1>
+    <p class="text-light">Track your income, manage expenses, and achieve your savings goals easily with our student-friendly budgeting app</p>
+    <button class="btn btn-success text-capitalize">login now</button>
+  </div>
+  </div>
+  <div class="container-fluidtext-center bg-body-tertiary" id="Features">
+    <div class="container text-center p-4 ">
+      <h1 class="p-2">Micro Saving and Budgeting Features</h1>
+      <div class="row">
+        <div class="col ">
+          <div class="card  shadow text-center">
+          <i class="bi bi-cash-coin text-primary" style="font-size:70px;"></i>
+            <h1>Smart Budget Tracking</h1>
+              <p>Easily record your daily income and expenses to
+                 understand where your money goes. Stay in control of your finances anytime.</p>
+          </div>
+        </div>
+        <div class="col-md-4 sm-12">
+        <div class="card shadow text-center">
+          <i class="bi bi-cash-stack text-success" style="font-size:70px;"></i>
+            <h1>Goal-Based Savings</h1>
+              <p>Set personal savings goals — whether it’s for tuition, gadgets,
+                 or travel — and track your progress with visual indicators.</p>
+          </div>
+        </div>
+        <div class="col">
+        <div class="card shadow text-center">
+          <i class="bi bi-cash text-info" style="font-size:70px;"></i>
+            <h1>Secure Transactions</h1>
+              <p>Your financial data is protected with top-level security
+                 to ensure a safe and private experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="About">
+  <div class="container text-center p-5">
+      <h2 class="fw-bold mb-4 text-info fs-1">About Micro Saving and Budgeting</h2>
+      <p class="lead text-muted">
+      Micro Saving and Budgeting helps students manage money wisely — track expenses, set goals, and grow savings effortlessly.
+        Our mission is to make financial management simple, smart, and accessible for every student.
+      </p>
+    </div>
+  </div>
+  <footer class="text-center bg-dark text-white py-4" id="">
+  <p class="mb-0">&copy; 2025 Micro saving and budgeting. All rights reserved.</p>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+</body>
+</html>
